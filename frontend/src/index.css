@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,200&family=Jost:wght@200;300&family=Mooli&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #252020;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background-color: #C4E8C2;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #696969;
+}
+
+.display {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 2rem;
+}
+
+.nav {
+    margin: 0 2rem;
+}
+
+.Footer {
+    width: 100%;
+    height: 4rem;
+    background-color: #C4E8C2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: #252020;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.signup {
+    width: 35%;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #C4E8C2;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.input_css {
+    width: 90%;
+    margin: 1rem auto;
+    height: 3rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    border-bottom: 1px solid #3f3e3e;
+    color: #3f3e3e;
+    font-size: 1rem;
+
+}
+
+h1 {
+    color: #252020;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.btn_css {
+    width: 90%;
+    margin: 2rem auto;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #AECFA4;
+    font-family: 'Jost', sans-serif;
+    border-radius: .5rem;
+    border: none;
+
+}
+
+/* add product */
+
+.addproduct {
+    width: 40%;
+    background-color: white;
+    margin: 13px auto;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.input_product {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background: transparent;
+    font-family: 'Jost', sans-serif;
+    color: rgb(63, 60, 60);
+    outline: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.product_btn {
+    width: 50%;
+    background: transparent;
+    font-family: 'Jost', sans-serif;
+    color: rgb(63, 60, 60);
+    outline: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid lightpink;
+    cursor: pointer;
+}
+
+/* all products */
+
+.product-list {
+    width: 80%;
+    margin: 1rem auto;
+    overflow-y: scroll;
+    height: 490px;
+ 
+    text-align: center;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+}
+
+/* scroll bar css */
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #95a5a6;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem auto;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+}
+
+/* Style the table header */
+th {
+    background-color: #AECFA4;
+    font-weight: bold;
+    padding: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.1rem !important;
+    text-align: center;
+}
+
+
+
+/* Style the table data cells */
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Add hover effect to table rows */
+tr:hover {
+    background-color: lightblue;
+}
+
+.delete {
+    font-family: 'Jost', sans-serif;
+    background-color: #AECFA4;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-top-right-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    margin: 0rem 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-search{
+    width: 50%;
+    margin: .5rem auto;
+    font-family: 'Jost', sans-serif;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    border-top-right-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    border: 1px solid #AECFA4;
+    letter-spacing: 1px;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+}
+
+.result{
+ color: #AECFA4;
+}
